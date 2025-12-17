@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import CircularProgressWithLabel from "@/pages/landing/components/CircularProgressWithLabel";
 import { motion } from "motion/react";
+import IconLandingBg from "@/shared/components/Icons/IconLandingBg";
 
 const Landing = () => {
   const [isClickedPort, setIsClickedPort] = useState<boolean>(false);
@@ -35,7 +36,8 @@ const Landing = () => {
     const letters = textBeforeComplete.split("");
 
     return (
-      <div className="w-full h-full flex items-center justify-center p-4 bg-primary">
+      <div className="w-full h-full relative flex items-center justify-center p-4 bg-primary">
+        <IconLandingBg />
         <div className="relative w-full max-w-2xl aspect-[4/3] bg-gradient-to-b from-gray-900 to-black rounded-3xl p-8 shadow-2xl border-8 border-black">
           <div className="relative w-full h-full bg-secondary rounded-2xl border-4 border-black overflow-hidden">
             <div className="relative w-full h-full flex flex-col items-center justify-center gap-8 p-8">
