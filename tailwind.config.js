@@ -42,44 +42,44 @@ export default {
        * ========================= */
       fontSize: {
         "heading-xl": [
-          "2.25rem", // text-4xl
+          "3.5rem", // 🔥 메인 히어로 타이틀
           {
-            lineHeight: "2.5rem",
+            lineHeight: "1.1",
             fontWeight: "700",
-            letterSpacing: "-0.02em",
+            letterSpacing: "-0.03em",
           },
         ],
         "heading-l": [
-          "1.875rem", // text-3xl
+          "2.75rem", // 섹션 타이틀
           {
-            lineHeight: "2.25rem",
+            lineHeight: "1.15",
             fontWeight: "700",
-            letterSpacing: "-0.02em",
+            letterSpacing: "-0.025em",
           },
         ],
         "heading-m": [
-          "1.5rem", // text-2xl
+          "2rem", // 카드/프로젝트 타이틀
           {
-            lineHeight: "2rem",
+            lineHeight: "1.25",
             fontWeight: "600",
           },
         ],
         body: [
-          "1rem", // text-base
+          "1.5rem", // 🔥 메인 설명 텍스트
           {
-            lineHeight: "1.75rem", // leading-7
+            lineHeight: "1.75",
           },
         ],
         small: [
-          "0.875rem", // text-sm
+          "1.25rem", // 보조 설명도 작지 않게
           {
-            lineHeight: "1.5rem", // leading-6
+            lineHeight: "1.6",
           },
         ],
         meta: [
-          "0.75rem", // text-xs
+          "1rem",
           {
-            letterSpacing: "0.08em",
+            letterSpacing: "0.12em",
             textTransform: "uppercase",
           },
         ],

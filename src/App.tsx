@@ -16,7 +16,7 @@ const App = () => {
       },
     ],
     {
-      basename: "/portfolio",
+      basename: import.meta.env.DEV ? "/" : "/portfolio",
     }
   );
   return <RouterProvider router={router} />;
