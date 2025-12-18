@@ -5,45 +5,20 @@ import { useState } from "react";
 import type { Tab } from "@/pages/home/model/home.types";
 import TabNavigation from "@/pages/home/components/TabNavigation";
 import CareerSection from "@/pages/home/components/career/CareerSection";
-
+import {
+  awards,
+  careers,
+  certificates,
+  schools,
+  projects,
+  skillCategories,
+} from "@/pages/home/model/home.data";
+import ProjectSection from "@/pages/home/components/project/ProjectSection";
+import SkillSection from "@/pages/home/components/skill/SkillSection";
 const Home = () => {
   const [activeTab, setActiveTab] = useState<Tab>("career");
 
   // Mock Data
-  const schools = [
-    {
-      name: "Seoul National University of Science and Technology",
-      major: "Computer Engineering",
-      period: "Mar 2021 - Present",
-      description: "GPA: 3.9 / 4.5, Minor in Visual Design",
-    },
-  ];
-
-  const careers = [
-    {
-      company: "SaaS Startup",
-      position: "Frontend Developer",
-      period: "Dec 2024 - Mar 2025",
-      description:
-        "Developed B2B task management SaaS and a golf course monitoring system",
-    },
-  ];
-
-  const certificates = [
-    {
-      name: "Word Processor Level 1",
-      issuer: "Korea Chamber of Commerce and Industry",
-      date: "Nov 2022",
-    },
-  ];
-
-  const awards = [
-    {
-      name: "Gold Prize, Term Project Competition",
-      organization: "Seoul National University of Science and Technology",
-      date: "Dec 2024",
-    },
-  ];
 
   return (
     <main className="w-full h-full flex flex-col justify-start items-center">
@@ -73,6 +48,10 @@ const Home = () => {
               certificates={certificates}
               awards={awards}
             />
+          )}
+          {activeTab === "project" && <ProjectSection projects={projects} />}
+          {activeTab === "skill" && (
+            <SkillSection categories={skillCategories} />
           )}
         </div>
       </section>

@@ -25,3 +25,13 @@ export interface Award {
   organization: string;
   date: string;
 }
+
+export interface Project {
+  id: string;
+  name: string;
+  role: string;
+  period: string;
+  summary: string;
+  highlights: string[];
+  images?: string[];
+}
