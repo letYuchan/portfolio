@@ -51,7 +51,7 @@ const HeroSection = () => {
         {/* CTA */}
         <div className="flex flex-col gap-4 items-center p-4 rounded-2xl border-2 border-dashed border-secondary relative h-fit transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 hover:border-accent bg-gradient-to-br from-primary via-primary to-accent/5">
           <motion.a
-            href=""
+            href="#"
             className="flex flex-row gap-2 items-center justify-between w-full rounded-lg hover:bg-accent/10 transition-all duration-200 group"
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -66,7 +66,7 @@ const HeroSection = () => {
             </div>
           </motion.a>
           <motion.a
-            href=""
+            href="#"
             className="flex flex-row gap-2 items-center justify-between w-full rounded-lg hover:bg-accent/10 transition-all duration-200 group"
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -81,7 +81,7 @@ const HeroSection = () => {
             </div>
           </motion.a>
           <motion.a
-            href=""
+            href="#"
             className="flex flex-row gap-2 items-center justify-between w-full rounded-lg hover:bg-accent/10 transition-all duration-200 group"
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
