@@ -18,6 +18,7 @@ import IconReactNative from "@/shared/components/Icons/IconReactNative";
 import IconTailwind from "@/shared/components/Icons/IconTailwind";
 import IconTypeScript from "@/shared/components/Icons/IconTypeScript";
 import IconVite from "@/shared/components/Icons/IconVite";
+import IconChatGPT from "@/shared/components/Icons/IconChatGPT";
 
 // Icon imports
 
@@ -174,7 +175,7 @@ export const skillCategories = [
     ],
   },
   {
-    title: "Tools & Environment",
+    title: "Tools",
     skills: [
       { name: "Figma", level: 80, icon: <IconFigma /> },
       { name: "Notion", level: 85, icon: <IconNotion /> },
@@ -182,6 +183,7 @@ export const skillCategories = [
       { name: "Vite", level: 85, icon: <IconVite /> },
       { name: "pnpm", level: 80, icon: <IconPnpm /> },
       { name: "Copilot", level: 90, icon: <IconCopilot /> },
+      { name: "ChatGPT", level: 95, icon: <IconChatGPT /> },
     ],
   },
 ];

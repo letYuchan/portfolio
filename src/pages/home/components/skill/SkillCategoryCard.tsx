@@ -46,9 +46,7 @@ const SkillCategoryCard = ({
               {title}
             </h4>
             <div className="w-10 h-10 rounded-full bg-accent/10 border border-accent/30 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
-              <span className="text-body text-accent font-bold">
-                ★
-              </span>
+              <span className="text-body text-accent font-bold">★</span>
             </div>
           </div>
 

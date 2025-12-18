@@ -15,6 +15,7 @@ import {
 } from "@/pages/home/model/home.data";
 import ProjectSection from "@/pages/home/components/project/ProjectSection";
 import SkillSection from "@/pages/home/components/skill/SkillSection";
+import FactSection from "@/pages/home/components/FactSection";
 const Home = () => {
   const [activeTab, setActiveTab] = useState<Tab>("career");
 
@@ -55,6 +56,11 @@ const Home = () => {
           )}
         </div>
       </section>
+      <div className="w-full self-stretch">
+        <CheckerPattern height={40} squareSize={20} />
+      </div>
+      {/* FACT */}
+      <FactSection />
     </main>
   );
 };
