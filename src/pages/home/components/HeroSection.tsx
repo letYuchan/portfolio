@@ -7,7 +7,7 @@ import myCharImg from "@/assets/imgs/home/letYuchanCharOnHero.png";
 
 const HeroSection = () => {
   return (
-    <section className="w-full max-w-5xl px-4 pt-20 flex flex-col items-center justify-between relative gap-[200px]">
+    <section className="w-full max-w-7xl px-4 pt-20 flex flex-col items-center justify-between relative gap-[200px]">
       {/* 상단 - 타이틀 멘트 */}
       <motion.div
         className="text-center flex flex-col relative z-20"

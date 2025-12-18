@@ -16,6 +16,7 @@ import {
 import ProjectSection from "@/pages/home/components/project/ProjectSection";
 import SkillSection from "@/pages/home/components/skill/SkillSection";
 import FactSection from "@/pages/home/components/FactSection";
+import Footer from "@/pages/home/components/Footer";
 const Home = () => {
   const [activeTab, setActiveTab] = useState<Tab>("career");
 
@@ -61,6 +62,14 @@ const Home = () => {
       </div>
       {/* FACT */}
       <FactSection />
+      <div className="w-full self-stretch">
+        <CheckerPattern height={40} squareSize={20} />
+      </div>
+      {/* Footer */}
+      <Footer />
+      <div className="w-full self-stretch">
+        <CheckerPattern height={40} squareSize={20} />
+      </div>
     </main>
   );
 };

@@ -6,7 +6,7 @@ import milk from "@/assets/imgs/home/milkOnIntro.png";
 
 const IntroSection = () => {
   return (
-    <section className="w-full max-w-5xl px-4 pt-20 flex flex-col items-center justify-between relative gap-[300px]">
+    <section className="w-full max-w-7xl px-4 pt-20 flex flex-col items-center justify-between relative gap-[300px]">
       <DecoOnIntroSection />
       {/* 상단 - 타이틀 */}
       <div className="flex flex-col items-center w-full z-20">
